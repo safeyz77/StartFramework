@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p {
+    font-size: larger;
+    color: black;
+    font-family: "Roboto";
+}
+
+h4 {
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+    font-family: "Libre Baskerville";
+}
+
+body {
+    background-color: #ECFFE6;
+}
+
+.navBg {
+    background-color: #399918;
+}
+
+.footerBg {
+    background-color: #FFAAAA;
+}
+
+.underFooter {
+    background-color: #FF7777;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.active {
+    border-bottom: #ECFFE6 3px solid;
+
+}
+
+.font-extrabold .active {
+    border: none;
+}
